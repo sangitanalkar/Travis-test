@@ -1,6 +1,6 @@
 
 dist: xenial
-
+language: c
 matrix:
   include:
     - os: linux
