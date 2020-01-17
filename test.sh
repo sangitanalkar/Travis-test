@@ -2,7 +2,7 @@
 
 set -xe
 
-archi="$(uname -i)"
+archi=`$(uname -i)`
 
 if [[ "$archi" == "s390x" ]] || [[ "$archi" == ppc64le ]]; then
         echo "i am in s390x or ppc - testing travis"
